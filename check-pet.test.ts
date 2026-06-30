@@ -1,6 +1,6 @@
 import { describe, test, beforeEach, afterEach } from 'node:test';
 import assert from 'node:assert/strict';
-import { DigitalPet } from './digital-pet.js';
+import { DigitalPet } from './digital-pet';
 
 describe('DigitalPet', () => {
   let pet: DigitalPet;
